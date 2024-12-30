@@ -1,1 +1,71 @@
-/* your code here */
+body{
+  padding: 25px;
+list-style-type: none;
+    list-style-image: none;
+}
+.title {
+	color: #5C6AC4;
+}
+
+.container{
+  height: 500px;
+  width: 800px;
+  background-color: black;
+}
+.album-container{
+  height: 450px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  left: 200px;
+  list-style: none;
+}
+h3,.price,p{
+  text-align: center;
+}
+.price span{
+  color:red;
+  font-size: 50px;
+}
+.price{
+  margin-top: 60px;
+}
+
+p,section{
+  color:lightgrey;
+text-transform: uppercase;
+  
+}
+
+.photo-album{
+  list-style: none;
+    list-style-image: none;
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin-left: 120px;
+}
+ul li img{
+  height: 30px;
+  
+}
+section{
+  margin-left:120px;
+}
+ol{
+  list-style: none;
+    margin-left: 120px;
+    line-height: 20px;
+}
+button{
+  background-color: red;
+  color:white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 120px;
+  border:none;
+  cursor: pointer;
+}
